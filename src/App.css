@@ -1,0 +1,36 @@
+.App{ 
+	min-height: 100vh;
+}
+
+
+.search-button{
+  /* background-color: brown; */
+  height: 39px;
+  width: 7%;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+}
+.search-bar{
+	width: 45%;
+  border: none;
+  margin-top: 27px;
+  padding: 8px; 
+  /* background-color: blue; */
+  margin-left: 20%;
+  border-radius: 4px;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  /* space-between */
+  flex-wrap: wrap;
+}
+
+
+.image{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
